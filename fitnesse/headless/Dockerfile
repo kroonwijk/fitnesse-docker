@@ -44,6 +44,8 @@ COPY start-selenium.sh /
 
 #And copy start-selenium-daemon.sh - This script is non-blocking for use downstream
 COPY start-selenium-daemon.sh /
+RUN chmod u+x *.sh
+
 CMD echo "Don't forget to open port 4444 in Docker: -p 4444:4444" && \
 /start-selenium.sh
 

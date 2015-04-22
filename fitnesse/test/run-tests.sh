@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #start selenium server
-/start-selenium-daemon.sh
+#/start-selenium-daemon.sh
 
 #start fitnesse
 /start-fitnesse-daemon.sh
